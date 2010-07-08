@@ -25,3 +25,5 @@ url-safe.
 **urlsafe_decode64(str)**
 Like `decode64`, but assumes the encoding uses `-_` instead of `+/`.
 
+[1]: http://github.com/visionmedia/express
+
