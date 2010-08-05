@@ -18,11 +18,11 @@ Return `str` encoded using a standard base64 alphabet.
 **decode64(str)**
 Return the standard base64 decoding of `str`.
 
-**urlsafe_encode64(str)**
+**urlsafeEncode64(str)**
 Like `encode64`, but uses `-_` instead of `+/` to make the result
 url-safe.
 
-**urlsafe_decode64(str)**
+**urlsafeDecode64(str)**
 Like `decode64`, but assumes the encoding uses `-_` instead of `+/`.
 
 [1]: http://github.com/visionmedia/express
