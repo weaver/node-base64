@@ -1,6 +1,8 @@
 # base64 #
 
-This fork of the the base64 library in [express][1].  It's been
+**This project is deprecated.  Use [node-text][1] instead.**
+
+This fork of the the base64 library in [express][2].  It's been
 modified to support custom alphabets.
 
 ## Example ##
@@ -25,5 +27,6 @@ url-safe.
 **urlsafeDecode64(str)**
 Like `decode64`, but assumes the encoding uses `-_` instead of `+/`.
 
-[1]: http://github.com/visionmedia/express
+[1]: http://github.com/weaver/node-text
+[2]: http://github.com/visionmedia/express
 
